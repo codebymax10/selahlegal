@@ -63,7 +63,7 @@
 
     .documents {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 18px;
       margin: 52px 0 64px;
     }
@@ -153,7 +153,7 @@
     <header>
       <p class="eyebrow">Selah · Legal &amp; Support</p>
       <h1>Simple, clear, and here when you need it.</h1>
-      <p class="intro">Review how Selah handles your information and the terms that apply when you use the app.</p>
+      <p class="intro">Review how Selah handles your information, the terms that apply when you use the app, and how to delete your account.</p>
     </header>
 
     <section class="documents" aria-label="Legal documents">
@@ -169,6 +169,13 @@
         <h2>Terms &amp; Conditions</h2>
         <p>Understand the rules and responsibilities that apply when using Selah and its features.</p>
         <span class="card-link">Read the terms &rarr;</span>
+      </a>
+
+      <a class="card" href="delete-account.html">
+        <span class="card-number">03</span>
+        <h2>Delete Account</h2>
+        <p>Learn how to permanently delete your Selah account and its associated data.</p>
+        <span class="card-link">View deletion options &rarr;</span>
       </a>
     </section>
 
